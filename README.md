@@ -12,6 +12,7 @@ https://github.com/coleifer/sqlite-web
 
 
 ## Modeling
+https://github.com/plantuml-stdlib
 
 - [PlantUML](https://plantuml.com)
 - [
@@ -22,59 +23,11 @@ https://learn.microsoft.com/en-us/azure/architecture/icons/
 
 ## SQL
 
-CREATE TABLE containers (
-
-);
-
-
-
-CREATE DATABASE architecture;
-
-DROP TABLE IF EXISTS node_tag_map;
-DROP TABLE IF EXISTS tags;
-DROP TABLE IF EXISTS nodes;
-
-CREATE TABLE tags (
- tag VARCHAR(50) PRIMARY KEY NOT NULL
-);
-
-CREATE TABLE nodes (
- alias VARCHAR(25) PRIMARY KEY NOT NULL,
- label VARCHAR(255) NOT NULL,
- type VARCHAR(255),
- description TEXT,
- sprite VARCHAR(255),
- link VARCHAR(255)
-);
-
-CREATE TABLE node_tag_map (
- node VARCHAR(25) NOT NULL,
- tag VARCHAR(50) NOT NULL,
- PRIMARY KEY (node, tag)
-);
-
-CREATE TABLE systems (
- alias VARCHAR(25) PRIMARY KEY NOT NULL,
- label VARCHAR(255) NOT NULL,
- type VARCHAR(25) NOT NULL,
- external BOOLEAN NOT NULL,
- description TEXT,
- sprite VARCHAR(255),
- link VARCHAR(255),
- role VARCHAR(25)
-);
-
-CREATE TABLE system_tag_map (
- system VARCHAR(25) NOT NULL,
- tag VARCHAR(50) NOT NULL,
- PRIMARY KEY (node, tag)
-);
-
--- Physical Locations
-INSERT INTO nodes VALUES ('HOME', 'Home', 'Location', 'This is a standard home location, i.e. a provate residence outside of a managed enterprise environment', NULL, NULL, NULL);
-
--- Profiles are virtual profiles for the network
-
+' Context Diagram
+' {Enterprise|System_}Boundary(alias, label, ?type, ?tags, $link)
+' Person{_Ext}(alias, label, ?descr, ?sprite, ?tags, $link)
+' System{Db|Queue}{_Ext}(alias, label, ?descr, ?sprite, ?tags, $link)
+' Rel(from, to, label, ?techn, ?descr, ?sprite, ?tags, $link)
 
 CREATE TABLE boundaries (
  alias VARCHAR(25) PRIMARY KEY,
@@ -93,8 +46,18 @@ CREATE TABLE people (
 
 CREATE TABLE systems (
  alias VARCHAR(25) PRIMARY KEY,
- label VARCHAR(255) NOT NULL,
  external BOOLEAN NOT NULL,
+ type VARCHAR(255) NOT NULL,
+ label VARCHAR(255) NOT NULL,
  description TEXT,
  uri VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE relationships (
+ from VARCHAR(25) NOT NULL,
+ to VARCHAR(25) NOT NULL,
+ label VARCHAR(255),
+ technology VARCHAR(25),
+ description TEXT,
+ uri VARCHAR(255) NOT NULL 
 );
