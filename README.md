@@ -6,6 +6,11 @@ Celsus - This project was named after the [Library of Celsus](https://www.histor
 
 This project provides a framework and a library for solution architecture.
 
+
+https://www.sqlite.org/index.html
+https://github.com/coleifer/sqlite-web
+
+
 ## Modeling
 
 - [PlantUML](https://plantuml.com)
@@ -69,3 +74,27 @@ CREATE TABLE system_tag_map (
 INSERT INTO nodes VALUES ('HOME', 'Home', 'Location', 'This is a standard home location, i.e. a provate residence outside of a managed enterprise environment', NULL, NULL, NULL);
 
 -- Profiles are virtual profiles for the network
+
+
+CREATE TABLE boundaries (
+ alias VARCHAR(25) PRIMARY KEY,
+ label VARCHAR(255) NOT NULL,
+ type VARCHAR(255) NOT NULL,
+ uri VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE people (
+ alias VARCHAR(25) PRIMARY KEY,
+ label VARCHAR(255) NOT NULL,
+ external BOOLEAN NOT NULL,
+ description TEXT,
+ uri VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE systems (
+ alias VARCHAR(25) PRIMARY KEY,
+ label VARCHAR(255) NOT NULL,
+ external BOOLEAN NOT NULL,
+ description TEXT,
+ uri VARCHAR(255) NOT NULL
+);
