@@ -10,13 +10,13 @@ This project provides a framework and a library for solution architecture.
 https://www.sqlite.org/index.html
 https://github.com/coleifer/sqlite-web
 
-https://c4model.com
+
 
 
 ## Modeling
 https://github.com/plantuml-stdlib
 
-- [PlantUML](https://plantuml.com)
+- 
 - [
 https://plantuml-stdlib.github.io/C4-PlantUML/
 
@@ -63,3 +63,9 @@ CREATE TABLE relationships (
  description TEXT,
  uri VARCHAR(255) NOT NULL 
 );
+
+## Diagramming
+
+- https://c4model.com
+- [PlantUML](https://plantuml.com)
+ - [Standard Library](https://github.com/plantuml-stdlib_
