@@ -1,1 +1,1 @@
-!define AWS_EC2 https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/main/dist/Compute/EC2.png
+!define AWS_COMPUTE_EC2 https://raw.githubusercontent.com/awslabs/aws-icons-for-plantuml/main/dist/Compute/EC2.png
