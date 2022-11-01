@@ -68,4 +68,4 @@ CREATE TABLE relationships (
 
 - https://c4model.com
 - [PlantUML](https://plantuml.com)
- - [Standard Library](https://github.com/plantuml-stdlib_
+ - [Standard Library](https://github.com/plantuml/plantuml-stdlib) [Unofficial](https://github.com/plantuml-stdlib)
