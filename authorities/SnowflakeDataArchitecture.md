@@ -32,4 +32,6 @@ that can leverage economies of scale (up, down, or out) to meet fluctuating busi
 
 #### Principles
 
-- [
+- [Data Instances](https://github.com/gautada/celsus/blob/main/principles/DataInstances.md)
+
+
