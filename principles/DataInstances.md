@@ -9,4 +9,4 @@ Benefi
 1. 
 ## Authorities
 
-- [Architecting Data Intensive SaaS Applications]()
+- [Snowflake Data Architecture](https://github.com/gautada/celsus/blob/main/authorities/SnowflakeDataArchitecture.md)
