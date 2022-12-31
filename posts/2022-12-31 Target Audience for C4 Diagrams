@@ -1,0 +1,21 @@
+# Target Audience for Architecture Diagrams
+
+For practicality purposes the number of deliverables provided by an architect should be limited and directed toward a specific use.  To achieve this we need to maintain a specific list of diagram and the intended target audience.
+
+## Context Diagram
+
+- *Business Owner*: Shows where the data comes from and where the data produced is use. Upstream/Downstream
+- *Project Manager*: Provides the scope of technology that limites the bredth of the impacted teams/technology
+
+## Container Diagram
+
+- *Technology Team*: Defines the shared services that the tech ownership team needs to interact with.
+
+## Component Diagram
+
+- *Technical Developer*: Started by the architect but completed by the technology team provides the blueprint for using the system for a technical aspect.
+
+## Deployment Diagram
+
+- *IT Resource Planning*: This is kinda a catchall group that ulitmately consumes the solution to procure tech or implement services as required.
+
