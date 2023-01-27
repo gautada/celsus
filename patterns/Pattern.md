@@ -1,6 +1,37 @@
-# Enterprise Architecture Pattern
+# Architecture Pattern
 
 ## Abstract
+
+The purpose of an **Architecture Pattern** is to provide an organization to non-functional requirement data of a solution and must be maintained by the **Solution Team** in-order to properly register a solution within the enterprise and to properly manage and plan the solution life-cycle.
+
+A **Solution Architect** selects which patterns apply to a solution through an **Architecture Solution Design** document. This activity should be done early in the planning process and is used to define a series of decisions and information that must be collected during the design and implementation phases. Linking a pattern to a solution defines the scoope of architecture within a project that can be used by the **Project Manager** tracked in a work-breakdown.
+
+An **Architecture Pattern** is derived from **Architecture Principles** and must be applicable across multiple solutions. An **Architecture Reference** refines a pattern by defining the non-functionals within the context of specific technology. The primary usage of a pattern and reference is within an **Architecture Solution Design** document.
+
+## Contents
+
+Gnerally a pattern defines a choice for a solution.  This is usually in the context of a categorical list.  
+
+The be a valid pattern the following goals must be evaluated:
+
+- A pattern should apply across multiple designs/soltions.
+- Patterns are directly derived from **Architecture Principles** and therefore indirectly from technical strategy and technical shared services.
+- Patterns should define the method of determining the data. 
+
+## Document
+
+A pattern defines an atomic decision about a non-functional requirement
+Governance:
+
+Defined categorical list that defines specific constraints for the solution.
+
+Scalability:
+
+
+
+data identified in a pattern can be further refined/defined in an **Architecture Reference** which usually re-defines the data 
+
+
 This document defines what the contents of an **Enterprise Architecture Pattern** document should be for value to be derived by the **Solution Architect** and the **Solution Team** when defining an **Enterprise Solution Design**. The purpose of this document is to define the data that must be maintained by a **Solution Team** to properly register the application to keep the solution in alignment with enterprise strategy.
 
 ## Requirements
