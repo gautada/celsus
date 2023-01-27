@@ -1,18 +1,19 @@
 # Enterprise Architecture Pattern
 
 ## Abstract
-This document defines what the contents of an **Enterprise Architecture Pattern** document should be for value to be derived by the **Solution Architect** when defining an **Enterprise Solution Design**.
+This document defines what the contents of an **Enterprise Architecture Pattern** document should be for value to be derived by the **Solution Architect** and the **Solution Team** when defining an **Enterprise Solution Design**. The purpose of this document is to define the data that must be maintained by a **Solution Team** to properly register the application to keep the solution in alignment with enterprise strategy.
 
 ## Requirements
 
 - A pattern should be defined to apply across multiple designs/solutions.  
-- A specific set of patterns should form a minimum set of patterns that **must** be addressed in a design/solution.
-- Patterns are derived directly from published strategy and/or from established services being provided in the enterprise.
-- Patterns should define specific data that should be maintained by the **Solution Team**. 
+- A minimum set of patterns, are defined, that **must** be addressed in a design/solution.
+- Patterns are derived directly from **Architecture Principles** which links to published strategy and/or from established services being provided in the enterprise.
+- Patterns should define specific data that should be maintained by the **Solution Team** in the **Enterprise Solution Design**.
+- The specific data to collect forms the non-functional 
 
 ## Contents
 
-A good pattern should be like a sewing 
+A good pattern should identify the specific data (non-functional requirements) to be maintained by the **Solution Team** for a specific soltuion.
 
 ## Scope
 
