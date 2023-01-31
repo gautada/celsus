@@ -1,0 +1,7 @@
+# A manifesto, really...
+
+I love the comment, **"Wow! You just copied the agile manifesto."** Well... yeah, I did.  The [Agile Manefesto](https://agilemanifesto.org) is fantastic.  The manifesto is short, simple, and correct.  So there are worse ideas to start from.  I have found that the merging of agile software methodologies and enterprise architecture can run into several hiccups.  This is the start of [Pragmatic Architecture](1).  While the deployment of the agile methodology in an enterprise is strategic the implementation provides a tactical capability.  What is missing is the strategic component.  Agile provides you with a more efficient way to capture the hill; what is missing is which of the multiple hills in front of us should be captured, and/or which should be captured first, should we be moving this direction at all?  Traditional architecture frameworks does not dovetail into Agile and continues to be a thorn in the side to agile teams not to mention a difficulty of IT management.
+
+The goal of the [Enterprise Architecture Proclamation] is to strip away all of the irrelevant parts of architecture frameworks and move forward with a practical definition for enterprise architecture and it's contribution to software development and management.
+
+So while yes the [Agile Manifesto](https://agilemanifesto.org) is the starting point this is the beginning of a new revolution of strategy on top of the working tactical revolution.  
