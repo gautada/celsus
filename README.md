@@ -1,6 +1,19 @@
-# celsus
+# Celsus
 
-This project is an architecture library
+Enterprise Architecture must be: practical versus theoretical.
+
+Everything produced by enterprise architecture must: be valuable versus a specified deliverable.
+
+Value produced by enterprise architecture is: the defined input **required** to get an desired output versus the approval of artifacts 
+
+
+
+
+Vote ticket to get an election result, Shovel as a tool, reference for information, template to follow.
+
+
+
+This project is a library of practical architecture resources.  The goal is to provide concrete and reusable instances of enterprise architecture resources for 
 
 Celsus - This project was named after the [Library of Celsus](https://www.history.com/news/8-impressive-ancient-libraries) - There were over two-dozen major libraries in the city of Rome during the imperial era, but the capital wasn’t the only place that housed dazzling collections of literature. Sometime around 120 A.D., the son of the Roman consul Tiberius Julius Celsus Polemaeanus completed a memorial library to his father in the city of Ephesus (modern day Turkey). The building’s ornate façade still stands today and features a marble stairway and columns as well as four statues representing Wisdom, Virtue, Intelligence and Knowledge. Its interior, meanwhile, consisted of a rectangular chamber and a series of small niches containing bookcases. The library may have held some 12,000 scrolls, but it most striking feature was no doubt Celsus himself, who was buried inside in an ornamental sarcophagus.
 
