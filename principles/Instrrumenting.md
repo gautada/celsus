@@ -2,6 +2,8 @@
 
 Logging can be time consuming and difficult to coordinate across mutiple services. Instrumentation is the act of defining a healthy state for an application and then monitoring metrics, events, logs, and traces (MELT) to determine holistically the deviation from healthystate in realtime. Logging is a part of instrumentation but instrumentation and health states are the prefered approach.
 
+- https://newrelic.com/blog/best-practices/logging-vs-instrumentation
+
 
 ** -- MOVE TO PATTERN -- **
 
